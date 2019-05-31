@@ -1,0 +1,29 @@
+{
+  "name": "digitalbazaar-ru/foundation",
+  "type": "library",
+  "license": "proprietary",
+  "description": "",
+  "version": "1.2.4",
+  "keywords": [],
+  "homepage": "",
+  "require": {
+    "php":">=5.6.4",
+    "symfony/console": "^3.2",
+    "symfony/var-dumper": "^3.2",
+    "illuminate/support": "^5.4",
+    "vlucas/phpdotenv": "^2.2",
+    "illuminate/routing": "^5.4",
+    "illuminate/events": "^5.4",
+    "monolog/monolog": "^1.19"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Foundation\\": ["src"]
+    },
+    "files": [
+      "helpers.php",
+      "service_provider.php"
+    ]
+  }
+}
